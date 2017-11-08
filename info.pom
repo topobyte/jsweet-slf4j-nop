@@ -2,5 +2,5 @@
 <project>
   <name>JSweet SLF4J NOP implementation</name>
   <description>A SLF4J backend for JSweet that outputs nothing</description>
-  <url>https://github.com/topobyte/jsweet-slfj4-nop</url>
+  <url>https://github.com/topobyte/jsweet-slf4j-nop</url>
 </project>
