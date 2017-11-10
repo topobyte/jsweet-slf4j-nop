@@ -16,12 +16,10 @@ if (project.hasProperty("topobyte")) {
 
 repositories {
     maven { url 'http://mvn.topobyte.de' }
-    maven { url 'http://repository.jsweet.org/artifactory/libs-release-local' }
     mavenCentral()
 }
 
 dependencies {
-    compile 'org.jsweet:jsweet-core:5-20170726'
 }
 
 task sourcesJar(type: Jar, dependsOn: classes) {
