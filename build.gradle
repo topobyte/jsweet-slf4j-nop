@@ -20,6 +20,7 @@ repositories {
 }
 
 dependencies {
+    compile 'de.topobyte:slf4j-transpilable-api:0.0.1'
 }
 
 task sourcesJar(type: Jar, dependsOn: classes) {
